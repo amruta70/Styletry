@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleTry - Virtual Outfit Try-On</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 1rem;
+    }
+    main {
+      padding: 2rem;
+    }
+    input[type="file"] {
+      margin: 1rem;
+    }
+    .upload-section {
+      border: 2px dashed #ccc;
+      padding: 2rem;
+      margin: 2rem auto;
+      width: 80%;
+      max-width: 400px;
+      background-color: #fff0f5;
+    }
+    .outfits {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .outfit {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      background-color: #ffffff;
+    }
+    footer {
+      background-color: #eee;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>StyleTry</h1>
+    <p>Virtual Outfit Try-On | व्हर्च्युअल आउटफिट ट्राय-ऑन</p>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <h2>Upload Your Photo / तुमचा फोटो अपलोड करा</h2>
+      <input type="file" accept="image/*" />
+    </section>
+
+    <section>
+      <h2>Select an Outfit / आउटफिट निवडा</h2>
+      <div class="outfits">
+        <div class="outfit">Casual Kurti</div>
+        <div class="outfit">Blazer Look</div>
+        <div class="outfit">Saree Style</div>
+        <div class="outfit">Western Dress</div>
+        <div class="outfit">Ethnic Wear</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 StyleTry | Fashion for Everyone | प्रत्येकासाठी फॅशन</p>
+  </footer>
+</body>
+</html>
